@@ -15,8 +15,6 @@ public class Team {
      this.jumpHeight = jumpHeight;
      this.runDistance = runDistance;
  }
-
-
     Course newCourse = new Course(1,500);
     public void race(){
         if(newCourse.Distance <= runDistance && newCourse.barrierHeight <= jumpHeight)
@@ -25,6 +23,6 @@ public class Team {
     }
     public void killKenny(){
         if(Objects.equals(nameTeamMate, "Kenny")) System.out.println("Кенни не смог преодолеть дистанцию. Сволочи! Они убили Кенни!");
-}
+  }
 }
 

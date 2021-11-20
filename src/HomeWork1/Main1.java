@@ -13,7 +13,6 @@ Team[] tM = {new Team("SouthPark","Kyle",1.2,900),
 tM[0].race();tM[1].race();tM[2].race();tM[3].race();tM[4].killKenny();
 
 
-
     }
 
 }
